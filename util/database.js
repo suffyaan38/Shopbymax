@@ -9,7 +9,7 @@
 // module.exports=pool.promise();
 
 const Sequelize=require('sequelize');
-const sequelize=new Sequelize('nodecomplete','root','password',
+const sequelize=new Sequelize('backendbymax','root','password',
 {dialect:'mysql', 
 host:'localhost'
 });
